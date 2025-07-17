@@ -76,27 +76,38 @@ p {
 
 
 /*Mii Gallery*/
-figure.gal {
-	display:table;
-}
-div.pageNav {
-  width: 125px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-}
-div.pageNav:hover {
-  width: 150px;
-  	transition: all 0.5s;
-  background-color: rgb(211, 217, 239);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-}
-div.label {
-  text-align: center;
-  padding: 10px 20px;
+div.gallery {
+  border: 1px solid #ccc;
+  height: 320px;
 }
 
+div.gallery:hover {
+  border: 1px solid #777;
+  background-color: #d8e2ec;
+  transition: all 0.3s;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+ font-family: verdana;
+  padding: 15px;
+  text-align: center;
+  font-size: 12pt;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 10%;
+}
 /*Tree Stuff*/
 .mainP {
 	height: 300px;
