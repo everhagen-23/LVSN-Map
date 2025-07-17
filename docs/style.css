@@ -42,6 +42,11 @@ a {
 	width: 100px;
 }
 
+.mii {
+	width:125px;
+	text-decoration: none;
+	display: inline;
+}
 p {
 	color: black;
 	font-family: verdana;
