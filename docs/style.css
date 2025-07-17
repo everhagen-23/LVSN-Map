@@ -8,27 +8,27 @@ a {
 }
 
 .navi ul {
-  list-style-type: none;
-  margin-bottom: 30px;
-  padding: 0;
-  overflow: hidden;
-  background-color: #dcdcdc;
+	list-style-type: none;
+	margin-bottom: 30px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #dcdcdc;
 }
 
 .navi li {
-  float: left;
+	float: left;
 }
 
 .navi li a {
-  display: block;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+	display: block;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 .navi li a:hover {
-  background-color: #717171;
+	background-color: #717171;
 }
 
 .navi p {
@@ -42,16 +42,21 @@ a {
 	width: 100px;
 }
 
-.mii {
-	width:125px;
-	text-decoration: none;
-	display: inline;
+h1 {
+
+	color: black;
+	font-family: verdana;
+	font-size: 30px;
+	font-weight: 100;
+	text-align: center;
 }
+
 p {
 	color: black;
 	font-family: verdana;
 	font-size: 15px;
 }
+
 
 .center {
 	display: block;
@@ -69,6 +74,30 @@ p {
 	margin-top: 20px;
 }
 
+
+/*Mii Gallery*/
+figure.gal {
+	display:table;
+}
+div.pageNav {
+  width: 125px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+div.pageNav:hover {
+  width: 150px;
+  	transition: all 0.5s;
+  background-color: rgb(211, 217, 239);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+div.label {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+/*Tree Stuff*/
 .mainP {
 	height: 300px;
 }
@@ -114,7 +143,6 @@ p {
 .RCM {
 	width: 1300px;
 }
-
 
 /*Now the CSS*/
 * {
