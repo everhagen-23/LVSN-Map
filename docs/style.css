@@ -35,7 +35,15 @@ a {
 	color: black;
 	padding-top:0.5em;
 	padding-bottom: 0.4em;
-	font-size: 25pt;
+	font-size: 27pt;
+	font-weight:600;	
+	text-align: left;
+}
+.textBlock h3 {
+		color: black;
+	padding-top:0.5em;
+	padding-bottom: 0.4em;
+	font-size: 21pt;
 	font-weight:600;	
 	text-align: left;
 }
@@ -48,17 +56,47 @@ color: black;
 	font-weight:900;
 color: lightseagreen;
 }
+.textBlock li {
+	padding-left:1%;
+	list-style-position: inside;
+	padding-top:0.5%;
+	padding-bottom: 0.5%;
+}
 .textBlock section
 {
 	padding-bottom:3%;
 }
-
+.collapse {
+  cursor: url('support/cursor.png'), auto;
+  padding:1%;
+margin-top: 0.5%;
+  width: 100%;
+  background-color: #dbdbdb;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+.active, .collapse:hover {
+  background-color: #bababa;
+}
+.cCont {
+  padding: 2%;
+	display: none;
+  overflow: hidden;
+  background-color: #dbdbdb;
+}
 .right {
 float: right;
 }
 
 .note {
 	background-color: yellow;
+}
+
+.icon {
+	float: left;
+	height: 5em;
+	padding-right: 1em;
 }
 .navi ul {
 	list-style-type: none;
