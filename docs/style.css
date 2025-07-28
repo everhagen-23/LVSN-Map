@@ -21,6 +21,15 @@ a {
 	font-family: verdana;
 	font-size: 12pt;
 }
+.textBlock h1 {
+
+	color: black;
+	padding-top:0.5em;
+	padding-bottom: 0.75em;
+	font-size: 32pt;
+	font-weight:600;	
+	text-align: center;
+}
 .textBlock h2 {
 
 	color: black;
