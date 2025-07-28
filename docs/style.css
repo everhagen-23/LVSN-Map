@@ -20,7 +20,7 @@ a {
 	color: black;
 	font-family: verdana;
 	font-size: 12pt;
-}
+text-align: justify;}
 .textBlock h1 {
 
 	color: black;
@@ -71,22 +71,24 @@ color: lightseagreen;
   padding:1%;
 margin-top: 0.5%;
   width: 100%;
-  background-color: #dbdbdb;
+  background-color: #f6f6f6;
   border: none;
   text-align: left;
   outline: none;
 }
 .active, .collapse:hover {
-  background-color: #bababa;
+  background-color: #dbdbdb;
 }
 .cCont {
   padding: 2%;
 	display: none;
   overflow: hidden;
-  background-color: #dbdbdb;
+  background-color: #f6f6f6;
 }
 .right {
 float: right;
+padding-left: 2em;
+min-width: 15em;
 }
 
 .note {
@@ -97,24 +99,26 @@ float: right;
 	float: left;
 	height: 5em;
 	padding-right: 1em;
+	padding-left: 1em;
 }
 .navi ul {
-	list-style-type: none;
-	margin-bottom: 30px;
-	padding: 0;
 	overflow: hidden;
 	background-color: #dcdcdc;
+	margin-bottom: 2%;
 }
 
 .navi li {
+	list-style-type: none;
 	float: left;
+	text-align: center;
+		vertical-align: center;
+
 }
 
 .navi li a {
 	display: block;
 	color: rgb(0, 0, 0);
-	text-align: center;
-	padding: 14px 16px;
+	padding: 2em 10em;
 	text-decoration: none;
 }
 
@@ -128,9 +132,7 @@ float: right;
 }
 
 .navi img {
-	display: flex;
-	float: left;
-	width: 100px;
+background-color: #dcdcdc;
 }
 
 
