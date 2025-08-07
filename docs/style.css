@@ -7,12 +7,14 @@ a {
 	cursor: url('support/cursor.png'), auto;
 
 }
+
 .center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width:85%
+	width: 85%
 }
+
 .textBlock {
 	background-color: white;
 	padding: 5%;
@@ -20,75 +22,87 @@ a {
 	color: black;
 	font-family: verdana;
 	font-size: 12pt;
-text-align: justify;}
+	text-align: justify;
+}
+
 .textBlock h1 {
 
 	color: black;
-	padding-top:0.5em;
+	padding-top: 0.5em;
 	padding-bottom: 0.75em;
 	font-size: 32pt;
-	font-weight:600;	
+	font-weight: 600;
 	text-align: center;
 }
+
 .textBlock h2 {
 
 	color: black;
-	padding-top:0.5em;
+	padding-top: 0.5em;
 	padding-bottom: 0.4em;
 	font-size: 27pt;
-	font-weight:600;	
+	font-weight: 600;
 	text-align: left;
 }
+
 .textBlock h3 {
-		color: black;
-	padding-top:0.5em;
+	color: black;
+	padding-top: 0.5em;
 	padding-bottom: 0.4em;
 	font-size: 21pt;
-	font-weight:600;	
+	font-weight: 600;
 	text-align: left;
 }
+
 .textBlock a {
-	font-weight:600;
+	font-weight: 600;
 	text-decoration: underline;
-color: black;
+	color: black;
 }
+
 .textBlock a:hover {
-	font-weight:900;
-color: lightseagreen;
+	font-weight: 900;
+	color: lightseagreen;
 }
+
 .textBlock li {
-	padding-left:1%;
+	padding-left: 1%;
 	list-style-position: inside;
-	padding-top:0.5%;
+	padding-top: 0.5%;
 	padding-bottom: 0.5%;
 }
-.textBlock section
-{
-	padding-bottom:3%;
+
+.textBlock section {
+	padding-bottom: 3%;
 }
+
 .collapse {
-  cursor: url('support/cursor.png'), auto;
-  padding:1%;
-margin-top: 0.5%;
-  width: 100%;
-  background-color: #f6f6f6;
-  border: none;
-  text-align: left;
-  outline: none;
+	cursor: url('support/cursor.png'), auto;
+	padding: 1%;
+	margin-top: 0.5%;
+	width: 100%;
+	background-color: #f6f6f6;
+	border: none;
+	text-align: left;
+	outline: none;
 }
-.active, .collapse:hover {
-  background-color: #dbdbdb;
+
+.active,
+.collapse:hover {
+	background-color: #dbdbdb;
 }
+
 .cCont {
-  padding: 2%;
+	padding: 2%;
 	display: none;
-  overflow: hidden;
-  background-color: #f6f6f6;
+	overflow: hidden;
+	background-color: #f6f6f6;
 }
+
 .right {
-float: right;
-padding-left: 2em;
-min-width: 15em;
+	float: right;
+	padding-left: 2em;
+	min-width: 15em;
 }
 
 .note {
@@ -101,6 +115,15 @@ min-width: 15em;
 	padding-right: 1em;
 	padding-left: 1em;
 }
+
+.ticon {
+	float: left;
+	width: 4em;
+	height: 5em;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
 .navi ul {
 	overflow: hidden;
 	background-color: #dcdcdc;
@@ -111,7 +134,7 @@ min-width: 15em;
 	list-style-type: none;
 	float: left;
 	text-align: center;
-		vertical-align: center;
+	vertical-align: center;
 
 }
 
@@ -132,7 +155,7 @@ min-width: 15em;
 }
 
 .navi img {
-background-color: #dcdcdc;
+	background-color: #dcdcdc;
 }
 
 
@@ -145,39 +168,69 @@ background-color: #dcdcdc;
 }
 
 
-/*Mii Gallery*/
-div.gallery {
-  border: 1px solid #ccc;
-  height: 320px;
+.mii a {
+	font-size: 30pt;
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
-  background-color: #d8e2ec;
-  transition: all 0.3s;
-}
-div.gallery img {
-  width: 100%;
-  height: auto;
+.mii img {
+	height: 1.5em;
+	float: left;
+	margin-bottom: 0.25em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 }
 
-div.desc {
- font-family: verdana;
-  padding: 15px;
-  text-align: center;
-  font-size: 12pt;
-
+.noBullets {
+	list-style: none;
 }
 
-* {
-  box-sizing: border-box;
+/*Wikis*/
+.wiki {
+	color: black;
+	font-family: verdana;
 }
 
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 10%;
+
+.wiki section {
+	background-color: white;
+	padding: 5%;
+	padding-top: 3%;
+	font-size: 12pt;
+	text-align: justify;
 }
+
+.wiki figure {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%
+}
+
+.sidebar {
+	float: right;
+	width: 20%;
+	min-width: 10em;
+	padding-left: 2em;
+}
+
+.iconType {
+	float: left;
+	height: 10em;
+	padding-right: 1em;
+	padding-left: 1em;
+	width: 7em
+}
+
+.wiki h1 {
+	color: black;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	font-size: 50pt;
+	font-weight: 600;
+	text-align: left;
+}
+
+
 /*Tree Stuff*/
 .mainP {
 	height: 300px;

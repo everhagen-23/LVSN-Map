@@ -2,109 +2,99 @@
 <html>
 
 <head>
-    <title>EHVTV- Characters</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="icon" type="icon" href="support/iconW.svg" />
-    </head>
+  <title>EHVTV- Characters</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="icon" type="icon" href="support/iconW.svg" />
+</head>
 
 <body class="body">
-<!-- NAVBAR START -->
-    <figure>
-        <nav class="navi">
-            <img class="icon" src="support/icon.svg">
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="charaNav.html">Character Web</a>
-                </li>
-                <li>
-                    <a href="galleryNav.html">Gallery</a>
-                </li>
-                     <li>
-                    <a href="vampFAQ.html">Information</a>
-                </li>
-                <li>
-                    <a href="links.html">Other Links</a>
-                </li>
-            </ul>
-        </nav>
-    </figure>
-    <!-- NAVBAR END -->
-    <p>this is really ugly its just holding graphics rn </p>
+  <!-- NAVBAR START -->
+  <figure>
+    <nav class="navi">
+      <img class="icon" src="support/icon.svg">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="charaNav.html">Character Web</a>
+        </li>
+        <li>
+          <a href="galleryNav.html">Gallery</a>
+        </li>
+        <li>
+          <a href="vampFAQ.html">Information</a>
+        </li>
+        <li>
+          <a href="links.html">Other Links</a>
+        </li>
+      </ul>
+    </nav>
+  </figure>
+  <!-- NAVBAR END -->
 
-    <figure class="center">
-<h1> Hunters </h1>
+  <figure class="center">
+    <section class="textBlock">
+      <h1> Characters </h1>
+      <p> My characters can roughly be sorted into 2 categories. Hunter and Vampire, which is hopefully pretty self
+        explanatory! Vampires and Hunters can then typically be sorted into 5 subtypes: <strong>
+          strength, agility, support, and
+          civilian
+        </strong>, depending on where their skills lie. Vampires cannot be civilians. If you see a character in both the
+        vampires and hunters category it is because of their forms are interesting enough to be seperate</p>
+    </section>
+    <section class="textBlock">
+      <button type="button" class="collapse">
+        <img src="profiles/sy_slayer.svg" class="ticon">
+        <h2>Hunters</h2>
+      </button>
+      <div class="cCont">
+        <ul style="list-style: none;">
+          <li class="mii" style="padding:0em 1.5em 1.5em 0em;"> <a href="ellie.html"><img src="profiles/mellie.png">
+              Ellie Harris </a></li>
+          <li class="mii" style="padding:0em 1.5em 1.5em 0em;"> <a href="mnoelle.html"><img src="profiles/mmnoelle.png">
+              Noelle Bergund </a></li>
+          <li class="mii" style="padding:0em 1.5em 1.5em 0em;"> <a href="aj.html"><img src="profiles/maj.png"> AJ </a>
+          </li>
+          <li class="mii" style="padding:0em 1.5em 1.5em 0em;"> <a href="melliot.html"><img src="profiles/mmelliot.png">
+              Elliot Harris </a></li>
+        </ul>
+      </div>
+      <button type="button" class="collapse">
+        <img src="profiles/sy_vamp.svg" class="ticon">
+        <h2>Vampires</h2>
+      </button>
+      <div class="cCont">
+        <ul style="list-style: none;">
+          <li class="mii" style="padding:0em 1.5em 1.5em 0em;"> <a href="noelle.html"><img src="profiles/mnoelle.png">
+              Noelle Bergund </a></li>
+          <li class="mii" style="padding:0em 1.5em 1.5em 0em;"> <a href="drac.html"><img src="profiles/mdrac.png"> Drac
+            </a></li>
+          <li class="mii" style="padding:0em 1.5em 1.5em 0em;"> <a href="freya.html"><img src="profiles/mfreya.png">
+              Freya Shan </a></li>
+          <li class="mii" style="padding:0em 1.5em 1.5em 0em;"> <a href="elliot.html"><img src="profiles/melliot.png">
+              Elliot Harris </a></li>
+        </ul>
+      </div>
+    </section>
+  </figure>
 
-<div class="responsive">
-  <div class="gallery">
-    <a href="ellie.html">
-      <img src="profiles/mellie.png" alt="ellie mii" width="125">
-    </a>
-    <div class="desc">Ellie Harris</div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-    <a href="mnoelle.html">
-      <img src="profiles/mmnoelle.png" alt="mortal noelle mii" width="125">
-    </a>
-    <div class="desc">Noelle Bergund</div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-    <a href="aj.html">
-      <img src="profiles/maj.png" alt="aj mii" width="125">
-    </a>
-    <div class="desc">AJ</div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-    <a href="mmelliot.html">
-      <img src="profiles/mmelliot.png" alt="mortal elliot mii" width="125">
-    </a>
-    <div class="desc">Elliot Harris</div>
-  </div>
-</div>
-</figure>
+  <script>
+    var coll = document.getElementsByClassName("collapse");
+    var i;
 
-<figure class="center">
-<h1>Vampires</h1>
-<div class="responsive">
-  <div class="gallery">
-    <a href="noelle.html">
-      <img src="profiles/mnoelle.png" alt="vamp noelle mii" width="125">
-    </a>
-    <div class="desc">Noelle Bergund</div>
-  </div>
-</div><div class="responsive">
-  <div class="gallery">
-    <a href="elliot.html">
-      <img src="profiles/melliot.png" alt="vamp elliot mii" width="125">
-    </a>
-    <div class="desc">Elliot Harris</div>
-  </div>
-</div><div class="responsive">
-  <div class="gallery">
-    <a href="drac.html">
-      <img src="profiles/mdrac.png" alt="drac mii" width="125">
-    </a>
-    <div class="desc">Drac</div>
-  </div>
-</div><div class="responsive">
-  <div class="gallery">
-    <a href="freya.html">
-      <img src="profiles/mfreya.png" alt="freya mii" width="125">
-    </a>
-    <div class="desc">Freya Shan</div>
-  </div>
-</div>
-</figure>
-</figure>
-
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  </script>
 </body>
 
 </html>

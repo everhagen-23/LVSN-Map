@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EHVTV- Characters</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="icon" href="support/iconW.svg" />
+</head>
+
+<body class="body">
+    <!-- NAVBAR START -->
+    <figure>
+        <nav class="navi">
+            <img class="icon" src="support/icon.svg">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="charaNav.html">Character Web</a>
+                </li>
+                <li>
+                    <a href="galleryNav.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="vampFAQ.html">Information</a>
+                </li>
+                <li>
+                    <a href="links.html">Other Links</a>
+                </li>
+            </ul>
+        </nav>
+    </figure>
+    <!-- NAVBAR END -->
+    <div class="center">
+        <figure class="wiki">
+            <img src="profiles/sy_vamp.svg" class="iconType">
+            <h1> Freya Shan
+            </h1>
+        </figure>
+
+        <figure class="textBlock">
+            <section>
+                <h2>Overview</h2>
+
+                <img src="profiles/vfreya/pFreya.png" class="sidebar">
+            </section>
+            <p>
+                Freya is ranked the 6th most powerful vampire (making her the strongest non-prime), and possesses the
+                <i>super analysis soul</i>. This allows her to forsee her opponeents attacks, but only if she has all
+                the data (i.e. if she doesn't know you have a sword she can't forsee a sword attack). She is aware that
+                her vampiric ability means nothing if she doesn't have the skills and reaction time to counter an attack
+                and is adamant that she won't let her lack of bestowed skill get in the way of her climbing the ranks.
+                This attitude tends to make her come off as standoffish and she is not exactly well liked by her peers.
+            </p>
+            </br> </br>
+            <p> She was part of the tracking team for <a href="mnoelle.html">Noelle</a>, along with <a
+                    href="drac.html">Drac</a> and <a href="sv.html"> SV</a>, being the primary lookout of the team. Upon
+                Noelle's actual turning she became bitter at how quickly she was being surpassed and would go out of her
+                way to minorly sabotage Noelle's progress. She took this bitterness out against <a
+                    href="ellie.html">Ellie</a> and <a href="AJ"> AJ</a>, and made a habit of "playing with her food."
+                She was a suspect for possession of Noelle's soul, but after being defeated and inspected by <a
+                    href="coach.html">Coach</a> and Ellie she was eliminaxated from the list.
+            </p>
+            </section>
+
+            <section>
+                <section>
+                    <button type="button" class="collapse">
+                        <img src="support/sparkle.gif" class="icon">
+                        <h2>Relationships</h2>
+                    </button>
+                    <div class="cCont">
+                        <p> loser lol </p>
+                    </div>
+                </section>
+                <section>
+                    <button type="button" class="collapse">
+                        <img src="support/sparkle.gif" class="icon">
+                        <h2>Gallery</h2>
+                    </button>
+                    <div class="cCont">
+                        <p> WIP lol </p>
+                    </div>
+                </section>
+                <section>
+                    <button type="button" class="collapse">
+                        <img src="support/sparkle.gif" class="icon">
+                        <h2>Trivia</h2>
+                    </button>
+                    <div class="cCont">
+                        <ul>
+                            <li> She was defeated by <a href=""> Coach</a>.</li>
+                            <li> She was the first vampire turned by <a href="elliot.html"> Elliot</a>.</li>
+                            <li> Her super analysis isn't actually part of her conciousness, she just gets a sense of
+                                what's to come and has to trust it.</a>.</li>
+
+
+                        </ul>
+                    </div>
+                </section>
+            </section>
+        </figure>
+    </div>
+    <script>
+        var coll = document.getElementsByClassName("collapse");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
