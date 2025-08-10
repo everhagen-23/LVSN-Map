@@ -8,15 +8,15 @@ a {
 }
 
 .hunter ::selection {
-    background: #3effff;
-    color: rgb(49, 23, 142);
-    text-shadow: none;
+	background: #3effff;
+	color: rgb(49, 23, 142);
+	text-shadow: none;
 }
 
 .vampire ::selection {
-    background: #ffd83e;
-    color: rgb(172, 28, 28);
-    text-shadow: none;
+	background: #ffd83e;
+	color: rgb(172, 28, 28);
+	text-shadow: none;
 }
 
 .center {
@@ -191,8 +191,19 @@ a {
 	padding-right: 0.5em;
 }
 
+.wip {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
 .ph {
-	height:15em;
+	height: 15em;
+}
+
+.links {
+	font-size: 20pt;
 }
 /*Wikis*/
 .wiki {
@@ -221,6 +232,7 @@ a {
 	width: 20%;
 	min-width: 10em;
 	padding-left: 2em;
+	padding-bottom: 1em;
 }
 
 .iconType {
@@ -243,58 +255,56 @@ a {
 
 /*responsive gallery from w3schools*/
 div.gallery {
-  border: 0.5em solid #ccc;
+	border: 0.5em solid #ccc;
 }
 
 div.gallery:hover {
-  border: 0.5em solid #777;
+	border: 0.5em solid #777;
 }
 
 div.gallery img {
-  width: 100%;
-  height: auto;
-  
+	width: 100%;
+	height: auto;
+
 }
 
 div.desc {
-  padding: 15px;
-  text-align: center;
+	padding: 15px;
+	text-align: center;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .responsive {
-  padding: 0 6px;
-  float: left;
-  vertical-align: center;
-  width: 24.99999%;
+	padding: 0 6px;
+	float: left;
+	vertical-align: center;
+	width: 24.99999%;
 }
 
 @media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
+	.responsive {
+		width: 49.99999%;
+		margin: 6px 0;
+	}
 }
 
 @media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
+	.responsive {
+		width: 100%;
+	}
 }
 
 .clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
+	padding-top: 0.5em;
 }
 
 * {
 	margin: 0;
 	padding: 0;
 }
-
-
-
