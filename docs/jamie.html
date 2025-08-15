@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EHVTV- Elliot Harris</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="icon" href="support/iconW.svg" />
+</head>
+
+<body class="hunter">
+    <!-- NAVBAR START -->
+    <figure>
+        <nav class="navi">
+            <img class="icon" src="support/icon.svg">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="charaNav.html">Character Web</a>
+                </li>
+          
+                <li>
+                    <a href="vampFAQ.html">Information</a>
+                </li>
+                      <li>
+                    <a href="gameAd.html">Game</a>
+                </li>
+                <li>
+                    <a href="links.html">Other Links</a>
+                </li>
+            </ul>
+        </nav>
+    </figure>
+    <!-- NAVBAR END -->
+
+    <figure class="center">
+        <section class="textBlock">
+            <h1>WIP!</h1>
+            <img src="support/wip.svg" class="wip" alt="wip! please come back later">
+            <button type="button" class="collapse">
+                <img src="support/icon.svg" class="ticon">
+                <h2>More Pages</h2>
+            </button>
+            <div class="cCont">
+                <ul style="list-style: none;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="charaNav.html">Character Navigation</a></li>
+                    <li><a href="ellie.html">Ellie Harris</a></li>
+                    <li><a href="vampFAQ.html">Vampire FAQs</a></li>
+                </ul>
+            </div>
+        </section>
+    </figure>
+
+    <script>
+        var coll = document.getElementsByClassName("collapse");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
