@@ -119,6 +119,10 @@ a {
 .note {
 	background-color: yellow;
 }
+.footnote {
+	font-size: 9pt;
+	font-style: italic;
+}
 
 .icon {
 	float: left;
