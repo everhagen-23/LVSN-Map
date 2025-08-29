@@ -6,6 +6,18 @@ body {
 a {
 	cursor: url('support/cursor.png'), auto;
 }
+.game a {
+		cursor: url('support/SHSclickera.png'), auto;
+
+}
+.game {
+	background-image: url('support/SHSbackground.png');
+	cursor: url('support/SHSclicker.png'), auto;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 .hunter ::selection {
 	background: #3effff;
@@ -121,6 +133,7 @@ a {
 .note {
 	background-color: yellow;
 }
+
 .footnote {
 	font-size: 9pt;
 	font-style: italic;
@@ -198,10 +211,10 @@ a {
 }
 
 .wip {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
 }
 
 .ph {
@@ -211,6 +224,7 @@ a {
 .links {
 	font-size: 20pt;
 }
+
 /*Wikis*/
 .wiki {
 	color: black;
@@ -257,15 +271,16 @@ a {
 	font-weight: 600;
 	text-align: left;
 }
- .showcase {
+
+.showcase {
 	width: 45%;
-display: inline;
-padding-left:2%;
-padding-right:2%;
+	display: inline;
+	padding-left: 2%;
+	padding-right: 2%;
 	margin-left: auto;
 	margin-right: auto;
-	
- }
+
+}
 
 /*responsive gallery from w3schools*/
 div.gallery {
