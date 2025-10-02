@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>OC Study</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="icon" href="support/iconW.svg" />
+
+<body class="vampire">
+    <!-- NAVBAR START -->
+    <figure>
+        <nav class="navi">
+            <img class="icon" src="support/icon.svg">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="charaNav.html">Character Web</a>
+                </li>
+
+                <li>
+                    <a href="vampFAQ.html">Information</a>
+                </li>
+                <li>
+                    <a href="gameAd.html">Game</a>
+                </li>
+                <li>
+                    <a href="links.html">Other Links</a>
+                </li>
+            </ul>
+        </nav>
+    </figure>
+    <!-- NAVBAR END -->
+    <div class="center">
+        <figure class="textBlock">
+            <h1>Vampire Study ^_^</h1>
+            <section>
+                <p>Fear, nightmares, plague, mass hysteria. None of it is real are you stupid its obviously vampires. Oh
+                    blood is fluid and the earth is warm and moist? nuh uh.
+                </p>
+                <button type="button" class="collapse">
+                    <img src="profiles/sy_vamp.svg" class="icon">
+                    <h2>What Creates a Vampire</h2>
+                </button>
+                <div class="cCont">
+                    <h3>General (Old Beliefs)</h3>
+                    <p>
+                        <img class="right" src="support/ocoffin.gif" width="20%" alt="noelle ellie and elliot">
+                    <ul>
+                        <li>Drowning</li>
+                        <li>Suicide/Violent Death</li>
+                        <li>Unbaptized</li>
+                        <li>Died while excommunicated</li>
+                        <li>Improper burial rites</li>
+                        <li>Bit by vampire in lifetime (becomes a vamp when they die)</li>
+                        <li>Tuberculosis/unknown diease (it's what vampirism is a common scapegoat for)</li>
+                        <li>Cursed by a priest</li>
+
+                    </ul>
+                    </p>
+                </div>
+                <button type="button" class="collapse">
+                    <img src="profiles/sy_vamp.svg" class="icon">
+                    <h2>Signs/Traits of a Vampire</h2>
+                </button>
+                <div class="cCont">
+                    <h3>General (Old Beliefs)</h3>
+                    <p>
+                        <img class="right" src="study/talkNoelle.png" width="20%" alt="noelle ellie and elliot">
+                    <ul>
+                        <li>Undescomposed body</li>
+                        <li>Fresh blood on/in corpse</li>
+                        <li>Groaning after being staked</li>
+                        <li>New skin/nail growth</li>
+                        <li>Appears at noon</li>
+                        <li>Hungry... Will eat in their grave or ask the living for food</li>
+                    </ul>
+                    </p>
+                </div>
+                <button type="button" class="collapse">
+                    <img src="profiles/sy_slayer.svg" class="icon">
+                    <h2>What Kills a Vampire</h2>
+                </button>
+                <div class="cCont">
+                    <h3>General (Old Beliefs)</h3>
+                    <p>
+                        <img class="right" src="profiles/gallery/14.png" width="20%" alt="noelle ellie and elliot">
+                    <ul>
+                        <li>Pierce through chest/heart (they did this to garden variety murderers too)</li>
+                        <li>Burn the body</li>
+                        <li>Decapitation (and sometimes put the head near the legs)</li>
+                        <li>Rock/dirt down the jaw</li>
+                        <li>Vampirdzhiya/Vampire Hunter</li>
+                        <li>Wolf (first 40 days)</li>
+                    </ul>
+                    </p>
+                </div>
+                <button type="button" class="collapse">
+                    <img src="profiles/sy_slayer.svg" class="icon">
+                    <h2>Precautions Against the Vampire</h2>
+                </button>
+                <div class="cCont">
+                    <h3>General (Old Beliefs)</h3>
+                    <p>
+                        <img class="right" src="study/talkNoelle.png" width="20%" alt="noelle ellie and elliot">
+                    <ul>
+                        <li>Upside down burial</li>
+                        <li>Under heavy stones</li>
+                    </ul>
+                    </p>
+                </div>
+                </secton>
+        </figure>
+    </div>
+
+
+    <script>
+        var coll = document.getElementsByClassName("collapse");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
